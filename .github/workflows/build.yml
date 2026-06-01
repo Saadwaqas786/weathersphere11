@@ -24,6 +24,7 @@ jobs:
 
       - name: Create .env file from secrets
         run: |
+          mkdir -p app
           echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > app/.env
 
       - name: Grant execute permission for gradlew
