@@ -1,0 +1,6 @@
+{
+  "name": "WeatherSphere",
+  "description": "A premium, modern AI-powered weather dashboard featuring beautiful forecasts, real-time insights, interactive maps, and smart recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
