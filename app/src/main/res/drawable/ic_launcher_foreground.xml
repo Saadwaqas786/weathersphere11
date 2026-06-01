@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer concentric orbit sphere ring -->
+    <path
+        android:pathData="M54,18 A36,36 0 1,1 53.9,18 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#4AFFFFFF"
+        android:fillColor="#00000000" />
+
+    <!-- Stylized inner radiant golden sun -->
+    <path android:pathData="M54,34 A20,20 0 1,1 53.9,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="74"
+                android:endY="74"
+                android:startX="34"
+                android:startY="34"
+                android:type="linear">
+                <item
+                    android:color="#FFD700"
+                    android:offset="0.0" />
+                <item
+                    android:color="#FF8C00"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Detailed cloud silhouette overlays on foreground -->
+    <path
+        android:pathData="M34,68 C34,60.2 40.2,54 48,54 C48.9,54 49.8,54.1 50.7,54.3 C54.3,47.8 61.2,43.5 69,43.5 C80.3,43.5 89.5,52.7 89.5,64 C89.5,64.3 89.5,64.7 89.5,65 C94.2,66.2 97.5,70.5 97.5,75.5 C97.5,81.3 92.8,86 87,86 L39.5,86 C31.5,86 25,79.5 25,71.5 C25,69.9 25.3,68.4 25.8,67 C26.7,67.6 27.8,68 29,68 Z"
+        android:fillColor="#EBF5FB" />
+        
+    <path
+        android:pathData="M29,68 C29,59.2 36.2,52 45,52 C46,52 47,52.1 48,52.3 C52,45 59.5,40 68,40 C80.7,40 91,50.3 91,63 C91,63.3 91,63.7 91,64 C96,65.2 99.5,69.5 99.5,74.5 C99.5,80.8 94.3,86 88,86 C88,86 91,86 91,86 L31,86 C22.7,86 16,79.3 16,71 C16,62.7 22.7,56 31,56 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#DDFFFFFF" />
+
+</vector>
